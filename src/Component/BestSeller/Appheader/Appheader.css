@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.header-left{
+    position:absolute;
+    left: 3vw;
+}
+.best-select{
+    position: absolute;
+    left: 12vw;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.select-img{
+    width: 10px;
+}
+.header-center{
+    position: absolute;
+    left: 43vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+.best-header-right{
+    position: absolute;
+    right: 3vw;
+    color: rgb(57,168,180);
+}

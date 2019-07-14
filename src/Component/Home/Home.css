@@ -1,0 +1,11 @@
+.App1{
+  text-align: center;
+  overflow: hidden;
+}
+.home-body{
+    overflow: auto;
+    position: absolute;
+    top: 40px;
+    bottom: 50px;
+    background-color: white;
+}

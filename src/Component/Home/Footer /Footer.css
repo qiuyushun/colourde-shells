@@ -1,0 +1,46 @@
+.home-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: white;
+}
+.home-footer-mode{
+    width: 15%;
+}
+.home-footerimg-mode{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.home-footer-h-mode{
+    margin: 0 auto;
+    color: rgb(159, 159, 159);
+    font-size: 10px;
+}
+.home-camera-area{
+    position: absolute;
+    bottom: 5px;
+    width: 15%;
+    height: 110%;
+    background: white;
+    border-radius: 30px;
+}
+.home-footerimg-mode1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%,-2%);
+    border-radius: 32px;
+}
+.home-footer-h-mode-1{
+    margin: 0 auto;
+    color: rgb(0, 153, 167);
+    font-size: 10px;
+}
+.link{
+    text-decoration: none;
+}

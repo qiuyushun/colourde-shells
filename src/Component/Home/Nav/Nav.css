@@ -1,0 +1,32 @@
+.home-nav{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.nav-list{
+    display: flex;
+    width: 200%;
+    justify-content: space-around;
+}
+.nav-mode{
+    font-size: 15px;
+    font-weight: 400;
+}
+.nav-mode:hover{
+    text-decoration: underline;
+    font-size: 18px;
+}
+.nav-mode:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: rgb(0, 140, 158);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all .8s ;
+}
+.nav-mode:hover:after{
+    left: 0%;
+    widows: 100%;
+}

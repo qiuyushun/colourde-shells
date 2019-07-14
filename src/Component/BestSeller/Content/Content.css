@@ -1,0 +1,141 @@
+.empty{
+    width: 100%;
+    background: rgb(242, 242, 242);
+    height: 10px;
+}
+.content-all{
+    width: 94vw;
+    margin: 0 auto;
+    position: relative;
+}
+.nav{
+    text-align: left;
+    position: relative;
+    font-size: 25px;
+    font-weight: 400;
+}
+.underline{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: rgb(202,232,235);
+    bottom: 4px;
+    opacity: 0.9;
+}
+.content-mode{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+.content-left-mode{
+    float: left;
+    width: 31vw;
+}
+.content-img-mode{
+    width: 31vw;
+}
+.content-right-mode{
+    float: right;
+    width: 61vw;
+    height: 31vw;
+}
+.content-title{
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    display: -webkit-box;
+    /* autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+}
+.location{
+    overflow: hidden;
+}
+.usage{
+    margin: 5px auto;
+    text-align: left;
+    float: left;
+    font-size: 14px;
+    color: rgb(148,148,149);
+    font-weight: 400;
+}
+.distance{
+    float: right;
+    margin: 5px auto;
+    color: rgb(124,125,125);
+    font-size: 14px;
+}
+.cost{
+    height: 20px;
+    line-height: 20px;
+}
+.number{
+    float: left;
+    font-size: 14px;
+    color: rgb(148,148,149);
+}
+.origin-money{
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+.rmb{
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    color: rgb(254,162,95);
+    font-size: 15px;
+}
+.money{
+    float: left;
+    position: relative;
+    font-size: 20px;
+    color: rgb(254,162,95);
+}
+.original{
+    float: left;
+    margin-left: 5px;
+    color: rgb(148,148,149);
+    position: relative;
+}
+.line{
+    width: 105%;
+    background: rgb(148,148,149);
+    position: absolute;
+    bottom: 7px;
+    height: 2px;
+}
+.now{
+    float: right;
+    color: white;
+    background: rgb(255, 29, 71);
+    border-radius: 15px;
+    width: 65px;
+    font-size: 14px;
+    text-align: center;
+}
+.time{
+    float: left;
+    border: 1px solid rgb(255,195,192);
+    border-radius: 15px;
+    width: 60px;
+    font-size: 13px;
+    margin-top: 8px;
+    color: rgb(255,195,192);
+    text-align: center;
+}
+.age{
+    float: left;
+    border: 1px solid rgb(58,171,183);
+    border-radius: 15px;
+    width: 60px;
+    font-size: 13px;
+    margin-top: 8px;
+    color: rgb(58,171,183);
+    margin-left: 5px;
+    text-align: center;
+}

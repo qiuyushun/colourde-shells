@@ -1,0 +1,77 @@
+.content{
+    width: 100vw;
+    background: rgb(244, 244, 245);
+    margin-top: 5px;
+}
+.content-area{
+    width: 98vw;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+}
+.content-area-left{
+    overflow: hidden;
+    width: 48vw;
+    float: left;
+}
+.content-area-right{
+    overflow: hidden;
+    width: 48vw;
+    margin-left: 1vw;
+    float: left;
+}
+.home-content-mode{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    background: white;
+    margin-bottom: 10px;
+}
+.home-content-img-mode{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.home-comment{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 88%;
+}
+.home-tips-area{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    line-height: 30px;
+}
+.home-tips-left{
+    position: absolute;
+    transform: translate(0,-45%);
+    left: 4vw;
+    top: 41%;
+}
+.loca{
+   font-size: 15px;
+   color: rgb(112,112,112);
+}
+.home-distance{
+    position: absolute;
+    left: 30px;
+    font-size: 13px;
+    color: rgb(142, 141, 142);
+    top: -1px;
+}
+.heart{
+    font-size: 14px;
+    position: absolute;
+    right: 41px;
+    top: 7px;
+}
+.home-numbers{
+    position: absolute;
+    right: 15px;
+    color: rgb(84, 85, 84);
+    font-size: 14px;
+}
+

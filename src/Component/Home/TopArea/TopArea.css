@@ -1,0 +1,24 @@
+.home-top-area{
+    display: flex;
+    justify-content: space-around;
+}
+.home-top{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.home-top-area-mode{
+    width: 22vw;
+    height: 20vw;
+    position: relative;
+}
+.top-area-img-mode{
+    width: 35px;
+    height: 35px;
+}
+.top-area-h6{
+    text-align: center;
+    margin:0 auto;
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+}

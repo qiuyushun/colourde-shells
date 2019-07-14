@@ -1,0 +1,49 @@
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: white;
+}
+.footer-mode{
+    width: 15%;
+}
+.best-footerimg-mode{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.best-footer-h-mode{
+    margin: 0 auto;
+    font-size: 10px;
+    color: rgb(159, 159, 159);
+}
+.camera-area{
+    position: absolute;
+    bottom: 5px;
+    width: 15%;
+    height: 110%;
+    background: white;
+    border-radius: 30px;
+}
+.best-footerimg-mode1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%,-2%);
+    border-radius: 32px;
+}
+.best-footer-h-mode-1{
+    margin: 0 auto;
+    color: rgb(0, 153, 167);
+    font-size: 10px;
+}
+.link{
+    text-decoration: none;
+}
+.bestseller{
+    text-decoration: none;
+}
